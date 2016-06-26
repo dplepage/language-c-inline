@@ -36,3 +36,6 @@ clean:
 
 %_c.c : %.hs
 	$(HC) -c $< $(HCFLAGS)
+
+nothing:
+	@echo 'Nothing happens.'
